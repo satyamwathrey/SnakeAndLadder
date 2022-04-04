@@ -51,7 +51,7 @@ namespace Snake_and_Ladder
                     case IsLadder:
                         if (Position > winningPosition)
                         {
-                            Position = winningPosition;
+                            Position -= winningPosition;
                         }
                         else
                         {
