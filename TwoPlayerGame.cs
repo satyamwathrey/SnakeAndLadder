@@ -18,9 +18,9 @@ namespace Snake_and_Ladder
             Random random = new Random();
             while (player1Position != Win_position && player2Position != Win_position)
             {
-                dieRoll = random.Next(6) + 1;
+                dieRoll = random.Next(1,7);
                 dieRolledTimes++;
-                options = random.Next(3) + 1;
+                options = random.Next(1,4);
 
                 switch (options)
                 {
